@@ -1,0 +1,27 @@
+{
+  "name": "@crowork/agent-self-improvement",
+  "version": "0.1.0",
+  "description": "Reference implementation: self-healing / self-improving loop for AI agents. Gather signals → LLM-draft a fix → smoke-test in isolation → gated merge.",
+  "author": "Crowork <hello@crowork.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muninnravenbot-ux/agent-self-improvement"
+  },
+  "scripts": {
+    "gather": "bun src/gather-signals.ts",
+    "review": "bun src/review-signals.ts",
+    "draft": "bun src/draft-change.ts",
+    "smoke": "bun src/smoke-test.ts",
+    "apply": "bun src/gated-apply.ts",
+    "consolidate": "bun src/consolidate-memory.ts",
+    "loop": "bash src/loop.sh",
+    "loop:dry": "DRY_RUN=1 bash src/loop.sh",
+    "loop:autonomous": "AUTONOMOUS=1 bash src/loop.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
