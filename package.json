@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Reference implementation: self-healing / self-improving loop for AI agents. Gather signals → LLM-draft a fix → smoke-test in isolation → gated merge.",
   "author": "Crowork <hello@crowork.ai>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/muninnravenbot-ux/agent-self-improvement"

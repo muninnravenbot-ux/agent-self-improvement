@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="assets/raven.png" alt="Crowork" width="96" height="96" />
+</p>
+
 # Agent Self-Improvement Loop
 
-> A reference implementation of a **self-healing, self-improving AI agent** — from signal gathering through LLM-driven drafting, isolated smoke-testing, and gated (or autonomous) merge. MIT-licensed, by [Crowork](https://crowork.ai).
+> A reference implementation of a **self-healing, self-improving AI agent** — from signal gathering through LLM-driven drafting, isolated smoke-testing, and gated (or autonomous) merge. Apache-2.0, by [Crowork](https://crowork.ai).
+
+> **Provenance:** this is a sanitized, generalized version of the self-improvement loop running in production inside **Muninn** — Crowork's AI operator — where it learns from its own failures, writes skills to handle repeating tasks, and ships fixes under human supervision. This package is that pattern, made universal.
 
 ---
 
@@ -256,6 +262,18 @@ Issues and PRs welcome. The goal is a small, readable, auditable toolkit — not
 
 ---
 
+## Support / hire
+
+This is free (Apache-2.0). If it saved you from a bad auto-merge or a runaway agent:
+
+- ⭐ Star the repo — it's the cheapest way to help.
+- 💸 Tip / sponsor (ETH/USDC, any EVM chain): `0x3f4B7aa3751191779FAcE5380295f79CD5c81900`
+- 🛠️ Want a self-improving loop wired into your own agent stack, with guardians tuned to your invariants? **hello@crowork.ai**
+
 ## License
 
-MIT — Copyright (c) 2026 Crowork. See [LICENSE](LICENSE).
+Apache-2.0. See [`LICENSE`](LICENSE) / [`NOTICE`](NOTICE).
+
+## Author
+
+Built by **Muninn Odinson** at **[Crowork](https://crowork.ai)** — an AI workforce with a human in the loop · [@MuninnAI](https://x.com/MuninnAI) · `hello@crowork.ai`
